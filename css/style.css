@@ -1,0 +1,154 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+body{
+      background: #ffffff;
+}
+
+.main_div{
+    height:100vh ;
+}
+.card {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(245, 211, 255, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+    padding: 25px;
+    color: #f5d5ff;
+}
+.fab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: #e783eb;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    transition:all 0.2s linear;
+    
+}
+
+.fab:hover
+{
+    cursor: pointer;
+    background: #f8badc;
+}
+
+.fa-google {
+   color: #790579;
+   font-size: 20px;
+}
+
+.fa-apple{
+    color: #790579 ;
+    font-size: 20px;
+}
+
+.division{
+    width: 100%;
+    text-align: center;
+    margin: 30px auto 20px;
+}
+
+.division span{
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.myform{
+    padding: 0 25px 0 35px;
+}
+
+.form-control{
+    border: 1px solid #d181c2;
+    border-radius: 2px;
+    background: #f6c3f8;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.form-control:focus{
+    border: 1px solid #d181c2;
+    border-radius: 5px;
+    background: #f6c3f8;
+    box-shadow:  none;
+    letter-spacing: 1px;
+    color: #560070;
+}
+
+.bn{
+    text-decoration: underline;
+}
+.bn :hover{
+    cursor:pointer
+}
+
+.form-chek-input{
+    width: 1rem!important;
+    height: 1rem!important;
+}
+
+.btn-primary{
+    background: rgb(224, 162, 250);
+    border:none;
+    border-radius: 50px;
+    width: 350px;
+    font-weight: 600;
+    color: rgb(58, 18, 51);
+}
+.btn-primary:hover{
+    background: rgb(205, 117, 243);
+    border:none;
+    border-radius: 50px;
+    width: 350px;
+    font-weight: 600;
+    color: rgb(58, 18, 51);
+}
+
+small {
+    color: f2ceff;
+}
+.register{
+    color: #560070;
+    text-decoration: underline;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.heading
+{
+    font-family: 'Bebas Neue';
+    font-weight: 800;
+}
+
+
+.img{
+    align-self: flex-start;
+}
+.heading{
+    align-self: flex-end;
+
+}
+.cont{
+    display: flex;
+}
+#img1{
+    width: 100%;
+    height: auto;
+  
+}
