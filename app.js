@@ -14,10 +14,24 @@ app.use(bodyParser.urlencoded({
 }));
 
 app.get("/", (req, res) => {
-    res.send("Aryan")
+  res.render("first");
 });
 
+app.get("/food", (req, res) => {
+  res.render("food");
+});
 
+app.get("/doctor", (req, res) => {
+  res.render("doctor");
+})
+
+app.get("/medicine", (req, res) => {
+  res.render("medicine");
+})
+
+app.get("/covid", (req, res) => {
+  res.render("covid");
+})
 
 
 

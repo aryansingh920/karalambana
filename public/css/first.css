@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+body {
+    background: rgb(224, 195, 249);
+    background: -moz-linear-gradient(234deg, rgba(224, 195, 249, 1) 0%, rgba(216, 170, 255, 1) 16%, rgba(229, 198, 255, 1) 35%, rgba(255, 255, 255, 1) 56%);
+    background: -webkit-linear-gradient(234deg, rgba(224, 195, 249, 1) 0%, rgba(216, 170, 255, 1) 16%, rgba(229, 198, 255, 1) 35%, rgba(255, 255, 255, 1) 56%);
+    background: linear-gradient(234deg, rgba(224, 195, 249, 1) 0%, rgba(216, 170, 255, 1) 16%, rgba(229, 198, 255, 1) 35%, rgba(255, 255, 255, 1) 56%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e0c3f9", endColorstr="#ffffff", GradientType=1);
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#navigation {
+    background: rgba(255, 255, 255, 0.55);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(17px);
+    -webkit-backdrop-filter: blur(17px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.uk-card,
+.uk-card-media-top,
+.uk-card-body,
+.uk-card-media-top {
+    text-align: center;
+    border-radius: 0 0 10% 10%
+}
+
+.uk-card img,
+.uk-card-media-top img {
+    /* border-radius: 10% 10% 0 0; */
+
+}
+
+.uk-card-media-top {
+    background: rgba(255, 255, 255, 0);
+
+}
+
+.uk-card-body {
+    background: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    /* border-radius: 10%; */
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.container-fluid {
+    overflow: hidden;
+    /* margin-top: 250px; */
+    /* background: rgba(255, 255, 255, 0.1); */
+
+    color: #000000 !important;
+    margin-bottom: 0;
+    padding-bottom: 0
+}
+
+footer {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.329), 50%, #7700ff25);
+    background: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(17px);
+    -webkit-backdrop-filter: blur(17px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    font-family: 'Rubik',
+        sans-serif;
+    background: #ffffff1a;
+    height: 100 !important;
+    color: black;
+}
+.uk-card-media-top img{
+    height : 250px !important;
+}
+
+small {
+    font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.bold-text {
+    color: #000000 !important
+}
+
+.mt-55 {
+    margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+h3 {
+    font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.social {
+    font-size: 21px !important
+}
+
+.rights {
+    font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
+}
