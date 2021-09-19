@@ -1,0 +1,25 @@
+{
+  "name": "karalambana",
+  "version": "1.0.0",
+  "description": "Axone125-Hophacks-Hackathon",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aryansingh920/karalambana.git"
+  },
+  "author": "Aryan Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aryansingh920/karalambana/issues"
+  },
+  "homepage": "https://github.com/aryansingh920/karalambana#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21"
+  }
+}
