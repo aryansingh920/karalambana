@@ -33,7 +33,17 @@ app.get("/covid", (req, res) => {
   res.render("covid");
 })
 
+app.get("/signUp", (req, res) => {
+  res.render("signUp");
+})
 
+app.get("/donation", (req, res) => {
+  res.render("donation");
+})
+
+app.get("/oxy", (req, res) => {
+  res.render("oxygen");
+})
 
 app.listen(process.env.PORT || 3000, () => {
   console.log("Server running on port 3000");
